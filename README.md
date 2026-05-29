@@ -27,7 +27,6 @@ The target variable is:
 ## Objectives
 
 The main objectives of this project are:
-
 - Analyze the structure and distribution of the dataset
 - Clean and prepare the data for machine learning
 - Handle negative values in the `Experience` variable
@@ -40,7 +39,6 @@ The main objectives of this project are:
 ## Methods Used
 
 The project follows these main steps:
-
 1. Data loading
 2. Data cleaning
 3. Exploratory Data Analysis
@@ -56,7 +54,6 @@ The project follows these main steps:
 ## Machine Learning Models
 
 Three supervised classification models were implemented:
-
 - Logistic Regression
 - Random Forest
 - Decision Tree
@@ -64,7 +61,6 @@ Three supervised classification models were implemented:
 ## Evaluation Metrics
 
 The models were evaluated using the following metrics:
-
 - Accuracy
 - Sensitivity / Recall
 - Specificity
@@ -73,14 +69,12 @@ The models were evaluated using the following metrics:
 - ROC Curve
 - AUC Score
 
-Since the dataset is imbalanced, accuracy alone is not enough to evaluate the models. For this reason, sensitivity, specificity, precision, and AUC were also considered.
 
 ## Main Results
 
 The Random Forest model achieved the best overall performance among the models tested.
 
 It showed strong results in terms of:
-
 - Accuracy
 - Specificity
 - Sensitivity
@@ -91,13 +85,6 @@ Logistic Regression was useful for interpretation because it allowed the analysi
 
 The Decision Tree model also performed well and was easier to interpret, but its overall performance was slightly lower than Random Forest.
 
-## Conclusion
-
-The results show that machine learning models can be effectively used to support the prediction of bank loan approval.
-
-Among the models tested, Random Forest proved to be the most reliable and robust model for this classification problem. It performed particularly well with imbalanced data and was able to capture complex relationships between the variables.
-
-This type of model can be useful in banking contexts to support decision-making processes, reduce classification errors, and improve operational efficiency.
 
 ## Technologies Used
 
@@ -135,7 +122,6 @@ bank-loan-approval-prediction/
 4. Open the R script in RStudio.
 5. Run the script.
 
-The script will load the dataset, clean the data, train the models, evaluate their performance, and generate the final comparison results.
 
 ## Authors
 
